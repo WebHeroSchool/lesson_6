@@ -5,24 +5,17 @@ body {
 	flex-direction: column;
 	align-items: center;
 	border: 3px solid black;
+	}
 
-}
-
-span{
-	color:black;
-}
-
-.top {
+.label {
 	font-size: 8pt;
 	font-weight: bold;
 	background-color: red;
 	color: white;
 	text-align: center;
 	padding:2px 2px 2px 2px;
-	margin-top: 10px;
-
-	
-}
+	margin-top: 10px;	
+	}
 
 .name {
 	font-size: 200pt;
@@ -30,22 +23,24 @@ span{
 	text-align: center;
 	padding: 0 0 0 0;
 	margin-top: 200px;
+	margin-bottom: 0;
 	letter-spacing: -19px;
 	font-family: 'Verdana';
+	}
 
-}
-
-.quote {
+.title {
 	font-size: 30pt;
-	margin:-35px 0 5px 0;
+	margin:-65px 0 -20px 0;
 	width: 700px;
 	position: center;
 	text-align: center;
 	font-weight: lighter;
 	color: darkgray;
-	
+	}
 
-}
+.mayor {
+	color:black;
+	}
 
 .author {
 	position: center;
@@ -53,36 +48,40 @@ span{
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: darkgray;
-}
+	}
 
-.column_1{
+.main{
 	column-count: 3;
 	column-gap: 30px;
 	text-align: justify;
-	margin-top: 150px;  
+	margin-top: 90px;  
 	padding: 0 10px 0 10px;    
-}
+	}
 
 hr {
-       position: relative;
-       margin: 8px auto;
-       width: 980px;
-       font-size: 1px;
-       border: none;
-       border: solid 1px black;
+    position: relative;
+    margin: 8px auto;
+    width: 980px;
+    font-size: 1px;
+    border: none;
+    border: solid 1px black;
     }
 
 footer {
 	display: inline-block;
-	width:980px;
-}
+	width: 980px;
+	margin-top: -10px;
+	margin-bottom: -5px;
+	
+	}
 
-.me {
-	position: left;
+.publisher {
 	text-align: left;
+	float:left;	
 }
 
 .date {
-	position: right;
+	
 	text-align: right;
-}
+	float: right;
+	}
